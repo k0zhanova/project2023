@@ -13,6 +13,10 @@
     <!-- Последняя компиляция и сжатый JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -20,6 +24,15 @@
     <link rel="stylesheet" href="styles/style.css">
 
   </head>
+
+
+
+  <style>
+    body{
+        background: #e2dedb;
+    }
+  </style>
+
 <body>
 	
   <nav class="navbar navbar-default" role="navigation">
@@ -31,7 +44,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">CURE</a>
+        <a class="navbar-brand" href="index.html">CURE</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
         <ul class="nav navbar-nav navbar-right">
@@ -39,8 +52,8 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">О НАС <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="about.html">Наши контакты</a></li>
-              <li><a href="about.html">Наша команда</a></li>
+              <li><a href="contact.html">Наши контакты</a></li>
+              <li><a href="comand.html">Наша команда</a></li>
             </ul>
           </li>
           <li class=""><a href="price.html">ЦЕНЫ</a></li>
@@ -57,149 +70,121 @@
   <br>
   <br>
 
+  <center>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>Подберите психолога,<br>который вас поймет</h1>
-        <p>заполните анкету и получите список психологов для работы с вашей проблемой</p>
+        <h1>Частые вопросы</h1>
       </div>        
     </div>
   </div>
 
-  <br>
-  <br>
-
-  <div class="container">
+  <div class="container block2">
     <div class="row">
-      <div class="col-md-4">
-        <h3>Самооценка</h3>
-        <p>У меня ничего не получится<br>Я себе не нравлюсь, ругаю себя<br>Я плохой человек, не верю в себя</p>
-      </div>     
-      <div class="col-md-4">
-        <h3>Эмоциональное выгорание</h3>
-        <p>Я ничего не хочу делать<br>У меня больше нет сил<br>Меня все раздражает</p>
-      </div>   
-      <div class="col-md-4">
-        <h3>Депрессия</h3>
-        <p>Не знаю, как встать с кровати<br>Не понимаю, зачем мне жить<br>Не могу найти сил на жизнь</p>
-      </div>      
+      <div class="col-md-12">
+        <p> Наша служба поддержки готова ответить на любой ваш вопрос: <br> support@psycure.com</p>
+      </div>        
     </div>
   </div>
+</center>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h3>Фобии и тревоги</h3>
-        <p>Мне часто неспокойно<br>Сильный страх, не могу справиться<br>Часто тревожные мысли перед сном</p>
-      </div>     
-      <div class="col-md-4">
-        <h3>Отношения</h3>
-        <p>Мне тяжело после расставания<br>У нас много конфликтов<br>Я не могу найти пару</p>
-      </div>   
-      <div class="col-md-4">
-        <h3>Принятие решений</h3>
-        <p>Тяну до последнего и нервничаю<br>Не могу принять важное решение<br>Нет уверенности в своих действиях</p>
-      </div>      
-    </div>
+<br>
+<br>
+
+<div class="container block3">
+  <div class="row">
+    <div class="col-md-2 ">
+      <h2>Впрос:</h2> <br><br>
+      <h2>Ответ:</h2>
+    </div>  
+    <div class="col-md-10">
+      <h3>Зачем нужен психолог?</h3>   <br><br>
+      <p> Психолог помогает решить конкретные проблемы, при этом не диктуя и ни в коем случае не навязывая свои способы их решения. Он направляет человека, дает ему возможность самому найти правильный выход из ситуации, ответить на многие вопросы, помогает разобраться в себе. Сеансы у таких специалистов развивают человека, улучшают его отношения с людьми и наполняют жизнь смыслом.</p>
+    </div>        
   </div>
+</div>
 
-  <br>
-  <br>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h2>Найти своего<br>психолога —<br>сложно</h2>
-        <p>Не каждый психолог работает <br> с вашей проблемой. А если работает,<br>то не факт, что достаточно эффективно.</p>
-        <p>Мы подберем профессионального <br>специалиста, который работает <br>именно с вашим запросом.</p>
-      </div>     
-      <div class="col-md-8">
-        <img>
-      </div>       
-    </div>
+<div class="container block3">
+  <div class="row">
+    <div class="col-md-2 ">
+      <h2>Впрос:</h2> <br><br>
+      <h2>Ответ:</h2>
+    </div>  
+    <div class="col-md-10">
+      <h3>Что лучше: онлайн- или офлайн-терапия?</h3><br><br>
+      <p>Если есть возможность, лучше выбирать терапию офлайн — в этом формате меньше ограничений, и он может быстрее дать результаты. Но если этот вариант не подходит, можно выбрать онлайн-формат. Это стандартная практика. Переписку рекомендуется использовать только в сочетании с другими форматами, воспринимая ее как поддержку, но не как терапию.</p>
+    </div>        
   </div>
+</div>
 
-  <br>
-  <br>
-
-  <div class="container">
-    <div class="row">   
-      <div class="col-md-8">
-        <img>
-      </div>       
-      <div class="col-md-4">
-        <h2>1. Заполните анкету
-          и получите список
-          самых подходящих
-          психологов с опытом
-          работы по вашему запросу.</h2>
-        <p>60 000+ человек уже обратились в Alter.</p>
-      </div>  
-    </div>
+<div class="container block3">
+  <div class="row">
+    <div class="col-md-2 ">
+      <h2>Впрос:</h2> <br><br>
+      <h2>Ответ:</h2>
+    </div>  
+    <div class="col-md-10">
+      <h3>Почему я должен пользоваться сервисом подбора, а не спросить контакты терапевта у знакомых?</h3><br><br>
+      <p>Терапевт, который помог вашему знакомому, может оказаться некомпетентным в решении именно вашей проблемы. Здесь велика вероятность просто не угадать со специализацией: если психолог помог кому-то выбраться из глубокой депрессии, это вовсе не значит, что он сможет решить проблемы в семье. Alter ориентируется исключительно на вашу проблему и позволяет как можно точнее подобрать психолога персонально для вас.</p>
+    </div>        
   </div>
+</div>
+
+<div class="container block3">
+  <div class="row">
+    <div class="col-md-2 ">
+      <h2>Впрос:</h2> <br><br>
+      <h2>Ответ:</h2>
+    </div>  
+    <div class="col-md-10">
+      <h3>Чем ваш сервис лучше других?</h3><br><br>
+      <p>	У нас только дипломированные специалисты и исключительно индивидуальный подход к каждому клиенту. Абсолютно все наши психологи — это специалисты, получившие высшее психологическое образование. Они регулярно повышают свою квалификацию и проходят личную терапию. Кроме того, прежде чем попасть в базу Alter, психологи проходят интервью и тщательную проверку по тесту компетенций. Мы проверяем у кандидатов наличие всех качеств, которые нужно иметь специалисту для эффективной терапии. Обратившись в Alter, вы можете быть уверены: вас будут консультировать только профессионалы, а не те, кто закончил интенсивные курсы по психологии.</p>
+    </div>        
+  </div>
+</div>
+
+<div class="container  block3">
+  <div class="row">
+    <div class="col-md-2 ">
+      <h2>Впрос:</h2> <br><br>
+      <h2>Ответ:</h2>
+    </div>  
+    <div class="col-md-10">
+      <h3>Как вы подберете мне психолога?</h3><br><br>
+      <p>	
+        Для того, чтобы мы подобрали психолога, вам необходимо заполнить анкету. С её помощью мы определяем, с чем вы хотите работать на терапии, и подбираем психологов, которые специализируются именно на таких запросах.</p>
+    </div>        
+  </div>
+</div>
+
+<div class="container block3">
+  <div class="row">
+    <div class="col-md-2 ">
+      <h2>Впрос:</h2> <br><br>
+      <h2>Ответ:</h2>
+    </div>  
+    <div class="col-md-10">
+      <h3>Как вы отбираете психологов в базу?</h3><br><br>
+      <p>	Всем психологам, которые хотят попасть в базу Alter, мы выдвигаем определенные требования. Во-первых, у них должен быть документ об окончании профильного высшего учебного заведения и об окончании длительного терапевтического образовании (ориентировочно 500 часов). Во-вторых, они обязаны успешно пройти тест на профессиональную компетентность и интервью. В-третьих, психологи сами должны проходить личную терапию и супервизию. И, наконец, у каждого кандидата должны быть рекомендации от коллег. Психолог не попадает в базу сервиса Alter, если хотя бы один из этих пунктов не выполнен. На данный момент в нашей базе более 1000 психологов.</p>
+    </div>        
+  </div>
+</div>
+
 
   <br>
   <br>
-  
-  <div class="container">
-    <div class="row">   
-      <div class="col-md-4">
-        <h2>2. Выберите психолога,
-          который вам понравился.
-          Все наши специалисты проходят
-          тщательный отбор — только 13%
-          попадает в базу Alter.</h2>
-        <p>✔️ Подтверждение профильного образования<br><br>
-          ✔️ Успешные кейсы по специализациям<br><br>
-          ✔️ Больше 50 часов супервизии<br><br>
-          ✔️ Беседы с интервьюерами Alter<br><br>
-          ✔️ 900+ проверенных психологов</p>
-      </div>  
-      <div class="col-md-8">
-        <img>
-      </div>       
-    </div>
-  </div>
 
-  <br>
-  <br>
-  
-  <div class="container">
-    <div class="row">   
-      <div class="col-md-8">
-        <img>
-      </div>       
-      <div class="col-md-4">
-        <h2>3. Запишитесь к психологу
-          на личную или онлайн-сессию. 
-          Терапия с Alter — это безопасно
-          и конфиденциально.</h2>
-        <p>✔️ Анонимный подбор психолога<br><br>
-          ✔️ Работа в соответствии с этическим кодексом<br><br>
-          ✔️ Материалы для подготовки к терапии</p>
-      </div>  
-    </div>
-  </div>
  
-  <br>
-  <br>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Лучшее, что можно сделать<br>для себя ✨</h1>
-      </div>        
-    </div>
-  </div>
-
 
   <br>
   <br>
+  <br>
+  <hr>
 
 	<div class="container" class="footer">
     <div class="row"> 
       <div class="col-md-4">
-        <p class="">г. Ростов-на-Дону, ул. Соколова, 147</p>
+        <p class="">г.Ростов-на-Дону, Ворошиловский пр. 46/176</p>
       </div>   
       <div class="col-md-4">
         <p class="">8(999)-555-55-55</p>
@@ -219,6 +204,8 @@
       </div>
     </div>
 	</div>
+
+  
 
 </body>
 </html>
